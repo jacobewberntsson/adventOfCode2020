@@ -27,5 +27,6 @@ def entry_sum2():
     solutionList = [item for t in solution for item in t]
     print("the values adding up to 2020 is: " + str(solutionList))
     print("With a total product of: " + str((math.prod(solutionList))))
+    
 entry_sum1()
 entry_sum2()
