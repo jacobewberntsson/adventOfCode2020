@@ -6,6 +6,7 @@ content = f.readlines()
 content = [int(x.strip()) for x in content]
 content.sort()
 n = 2020
+f.close()
 
 def entry_sum1():
     

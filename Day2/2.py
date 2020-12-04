@@ -1,6 +1,7 @@
 f = open("data/2_1.txt", "r")
 content = f.readlines()
 content = [line.strip().replace(":", "").split(",") for line in content]
+f.close()
 
 def pwdCheckerSledRental():
     count = 0

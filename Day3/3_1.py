@@ -2,6 +2,7 @@ f = open("data/3_1.txt", "r")
 f.readline()
 content = f.readlines()
 content = [line.strip().split(",") for line in content]
+f.close()
 
 def slopeTraverse(idxX, idxY):
     nextIdx = 0
