@@ -40,6 +40,7 @@ def main():
     print("The number of 1*3 jolt differences are: " + str(c1 * c3))
     uniqueConnections = distinctCounter()
     print("The amount of unique connections are: " + str(uniqueConnections))
+    print("adapterJolt: " + str(adapterJolt) + " c2: " + str(c2))
 
 
 if __name__ == "__main__":
